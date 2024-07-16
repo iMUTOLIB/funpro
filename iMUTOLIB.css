@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* .container{
+    width: 100%;
+    color: white;
+  } */
+  .side{
+    background: #000000;
+    width: 150px;
+    position: fixed;
+    color: white;
+    height: 100%;
+    
+  }
+  .container{
+    margin-left: 160px;
+  }
+  .header1 {
+    border: 5px inset gold;
+    border-radius: 20px;
+    background: black;
+    text-align: center; 
+    color: wheat;
+    width: 90%;
+  }
+.nav{
+  display: inline;
+   float: right; 
+   padding-top: 20px;
+}
+
+ nav ul{
+  text-align: center;
+  padding: 10px;
+
+}
+.mynav li{
+    list-style-type: none;
+    padding:20px;
+
+  }
+  li a{
+    text-decoration: none;
+    color: goldenrod;
+    font-size: 20px;
+    line-height: 2;
+  }
+  li a:hover{
+    color: gold;
+  }
+ #hover:hover{
+color: hsl(120,100%,100%);
+ }
+img{
+  display: block;
+}
+.description{
+    width: 300px;
+    color: black; 
+    text-align: center; 
+    margin: 35px 200px; 
+    background-color: gold;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+} 
+#note{
+    display: flex;
+    padding: 5px;
+    width: 50%;
+    color: goldenrod; 
+    border: 3px inset gold;
+    border-radius: none;
+    background: black;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#note li{
+  padding: 10px;
+}
+
+.image{
+    display: inline-block;
+    padding: 10px;
+    background: black;
+    border: 3px inset goldenrod;
+
+}
+.image img{
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    
+}
+.carousel-item img{
+  height: 500px;
+  width: 50%;
+}
+object:hover{
+  transform: rotate(360deg);
+}
+.carousel{
+  width: 85%;
+ margin-left: 50px;
+}
+
+object{
+  border-radius: 80px;
+  height: 230px;
+  width: 230px;
+  /* transition:2s ; */
+  transition: 650ms ease-in;
+  border: 3px inset goldenrod;
+  margin-top: 10px;
+}
+
+.svge{
+  text-align: center;
+}
+/* img{
+  padding-top: 10px;
+  object-fit: cover;
+  width: ;
+} */
+#carousel{
+    width: 200px;
+    padding: 10px;
+    background: black;
+    border: 3px inset goldenrod;
+}
+.footer{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 40px;
+  color: grey;
+  background-color: beige;
+  text-align: center;
+}
